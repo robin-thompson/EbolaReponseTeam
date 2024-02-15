@@ -8,6 +8,8 @@ Code for reproducing Fig 3A is included in the file "RiskOfWithdrawingERT_Fig3A.
 
 Code for reproducing Fig 3B is included in the file "RiskOfWithdrawingERT_Fig3B.m"
 
+Relevant data are included within the code.
+
 ©2024 Robin Thompson <robin.thompson@maths.ox.ac.uk>.
 
 
