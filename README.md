@@ -2,11 +2,11 @@ Code for reproducing the results presented in "Thompson et al. Using real-time m
 
 All code written in MATLAB, compatible with version R2022a. Installation of MATLAB is available from https://www.mathworks.com/help/install/ (typical install time: 5 minutes).
 
-Code for reproducing Figs 1, 2 and S1 are included in the file "RiskOfWithdrawingERT_Fig1_2_S1.m"
+Code for reproducing Figs 1, 2 and S1 are included in the file "RiskOfWithdrawingERT_Fig1_2_S1.m". Expected run time: 10 minutes.
 
-Code for reproducing Fig 3A is included in the file "RiskOfWithdrawingERT_Fig3A.m"
+Code for reproducing Fig 3A is included in the file "RiskOfWithdrawingERT_Fig3A.m". Expected run time: 30 seconds.
 
-Code for reproducing Fig 3B is included in the file "RiskOfWithdrawingERT_Fig3B.m"
+Code for reproducing Fig 3B is included in the file "RiskOfWithdrawingERT_Fig3B.m". Expected run time: 30 seconds.
 
 Relevant data are included within the code.
 
