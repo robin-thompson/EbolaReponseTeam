@@ -273,7 +273,7 @@ ERTWithdrawalDay = daysact('5-apr-2018',  '24-jul-2018') + 1;
 
 figure()
 hold on
-plot([0:100], 1 - combinedEOO(ERTArrivalDay:(ERTArrivalDay + 100), number_missed + 1))
+plot([0:100], 1 - combinedEOO(ERTArrivalDay:(ERTArrivalDay + 100)))
 serial_first_case = datenum('8-may-2018');
 serials = [serial_first_case:(serial_first_case+101)];
 datesHere = datestr(serials);
