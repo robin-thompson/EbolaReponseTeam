@@ -48,7 +48,7 @@ end
 
 for dispersion_k = [0.2 10]
 
-RVals = [0.01:0.01:20];
+RVals = [0.001:0.001:20];
 logL = zeros(length(RVals),1);
 
 for rIt = 1:length(RVals)
@@ -90,12 +90,12 @@ for RIt = 1:length(RVals)
         for j = t:(t + length(SI_discrete))
             sumV = 0;
             for s = 1:(j-1)
-                 if s < length(SI_discrete + 0.5)
+                 if s < (length(SI_discrete) + 0.5)
                 sumV = sumV + incidence_data(j-s)*SI_discrete(s);
                 end
             end
-            p0 = R*sumV/(k + R*sumV);
-            logEOO(t,RIt) = logEOO(t,RIt) + k*log(1 - p0);
+            p0 = R*sumV/(dispersion_k + R*sumV);
+            logEOO(t,RIt) = logEOO(t,RIt) + dispersion_k*log(1 - p0);
         end
 
         EOO(t,RIt) = exp(logEOO(t, RIt));
