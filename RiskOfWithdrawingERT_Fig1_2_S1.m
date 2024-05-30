@@ -3,7 +3,7 @@ clear all
 close all
 
 %% This code generates the panels shown in Figures 1, 2 and S1 of the manuscript:
-%% Thompson et al. Using real-time modelling to optimise an outbreak response: Insights from the 2017 Ebola outbreak in the Democratic Republic of the Congo.
+%% Thompson et al. Using real-time modelling to inform the 2017 Ebola outbreak response in DR Congo. Nature Communications, 2024.
 
 %% All code was written in MATLAB, compatible with version R2022a.
 
