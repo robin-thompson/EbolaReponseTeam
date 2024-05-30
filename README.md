@@ -1,4 +1,4 @@
-Code for reproducing the results presented in "Thompson et al. Code accompanying the manuscript: Thompson et al. Using real-time modelling to inform the 2017 Ebola outbreak response in DR Congo. Nature Communications, 2024.".
+Code for reproducing the results presented in "Thompson et al. Using real-time modelling to inform the 2017 Ebola outbreak response in DR Congo. Nature Communications, 2024."
 
 All code written in MATLAB, compatible with version R2022a. Installation of MATLAB is available from https://www.mathworks.com/help/install/ (typical install time: 5 minutes).
 
