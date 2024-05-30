@@ -3,7 +3,7 @@ clear all
 close all
 
 %% This code relates to the results in Figure S4 of the manuscript:
-%% Thompson et al. Using real-time modelling to optimise an outbreak response: Insights from the 2017 Ebola outbreak in the Democratic Republic of the Congo.
+%% Thompson et al. Using real-time modelling to inform the 2017 Ebola outbreak response in DR Congo. Nature Communications, 2024.
 
 %% Specifically, to generate the results in Fig 4B, this code should be run for number_missed = 0,1,2,...,5
 %% For each value of number_missed, the code should be run for realisation_number = 1,2,...,1000
